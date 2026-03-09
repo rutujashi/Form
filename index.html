@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="img">
+        <img src="download.jpg" alt="Nature Img" />
+      </div>
+      <div class="form-section">
+        <form action="/submit" method="post">
+          <h3>Registration Info</h3>
+          <input type="text" name="Name" placeholder="Name" /> <br />
+          <br />
+          <input type="date" name="Birthdate" placeholder="Birthdate" /> <br />
+          <br />
+          <select>
+            <option>Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+          </select>
+          <br /><br />
+          <input type="text" name="Email" placeholder="Email" /> <br /><br />
+          <input type="tel" name="Phone" placeholder="Phone" /><br /><br />
+          <button onclick="submit()">Submit</button>
+          <br /><br />
+        </form>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
